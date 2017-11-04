@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VPLoginLogoutManagement_Example' do
+  pod 'VPLoginLogoutManagement', :path => '../'
+
+  target 'VPLoginLogoutManagement_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
