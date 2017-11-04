@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  VPLoginLogoutManagement: b2c43a2847746ef243944d0e632c478cd5330d51
+  VPLoginLogoutManagement: 195ffa8686940676de8ccaf986fc3f23ab0ef954
 
 PODFILE CHECKSUM: b760f519313aa7d18f613a138bce0c5511bcdcbc
 
