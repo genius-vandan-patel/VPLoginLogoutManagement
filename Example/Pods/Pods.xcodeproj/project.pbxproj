@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00BE220C73D23BCB04AD5177F989091E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28805A99825BF9192CFC386A03421489 /* ReplaceMe.swift */; };
+		08E525F3AE5BA79C5704CC6842917BCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		26FF6A61F77CBADDCED575AA7AA50620 /* Pods-VPLoginLogoutManagement_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E76604FA9AF6ADBCE2B3BD0B6AD9074A /* Pods-VPLoginLogoutManagement_Tests-dummy.m */; };
+		29E8709264E5297277010EBDB9B07497 /* Pods-VPLoginLogoutManagement_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CAB6EF9B5FAD0321F6BF33567262542 /* Pods-VPLoginLogoutManagement_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D33D51BBA4D674DB0C7A5ADB9AD7FF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		34553B3CE62B0E1CDB94DE59801AC80C /* VPLoginLogoutManagement-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B2FE3EF2778BBAFE7C8D185B57074F /* VPLoginLogoutManagement-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		573533E93CD2044302EAA2AADD7676C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		66E30C2E19BD09489FFA29CEB950CBA9 /* Pods-VPLoginLogoutManagement_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D82F8995CC8E301A448FD880AA12B8 /* Pods-VPLoginLogoutManagement_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73B729996C72C38B267EE9183723F45C /* Pods-VPLoginLogoutManagement_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 087CB843020460F84954944F688CA625 /* Pods-VPLoginLogoutManagement_Example-dummy.m */; };
+		B5AAF0F7EF4C222F66A4118343525920 /* VPLoginLogoutManagement-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B63B30527F7209FC5863A9EF733A70 /* VPLoginLogoutManagement-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FA2604CD9F8DC0FD9438628FB9B6553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E524CB48B330E922AF90988779392F63;
+			remoteInfo = VPLoginLogoutManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B63B30527F7209FC5863A9EF733A70 /* VPLoginLogoutManagement-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VPLoginLogoutManagement-dummy.m"; sourceTree = "<group>"; };
+		087CB843020460F84954944F688CA625 /* Pods-VPLoginLogoutManagement_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VPLoginLogoutManagement_Example-dummy.m"; sourceTree = "<group>"; };
+		28805A99825BF9192CFC386A03421489 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		366C01D3BDD413052CB4058E8C0A3E90 /* Pods-VPLoginLogoutManagement_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VPLoginLogoutManagement_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		51FF3894E5529F514C8438940FB2CC1D /* Pods-VPLoginLogoutManagement_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VPLoginLogoutManagement_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		552D8A39197B716047247FB5212E7138 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573CEEB023E737D8F97A6F3AF13EC23B /* Pods-VPLoginLogoutManagement_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VPLoginLogoutManagement_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E9E5143965313167FF70DD80ABEDFE0 /* VPLoginLogoutManagement.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VPLoginLogoutManagement.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B9D3B099BBCC0AF99250E8AD7CD7B29 /* Pods_VPLoginLogoutManagement_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VPLoginLogoutManagement_Tests.framework; path = "Pods-VPLoginLogoutManagement_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BAFACFE3BAE16A82B675E43E4FC4128 /* Pods_VPLoginLogoutManagement_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VPLoginLogoutManagement_Example.framework; path = "Pods-VPLoginLogoutManagement_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAB6EF9B5FAD0321F6BF33567262542 /* Pods-VPLoginLogoutManagement_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VPLoginLogoutManagement_Example-umbrella.h"; sourceTree = "<group>"; };
+		8442947CE935C5344DD2E406C6C383DF /* Pods-VPLoginLogoutManagement_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPLoginLogoutManagement_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96B2FE3EF2778BBAFE7C8D185B57074F /* VPLoginLogoutManagement-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPLoginLogoutManagement-umbrella.h"; sourceTree = "<group>"; };
+		96BE2D93AE0B2F282E6017A9F257BC93 /* Pods-VPLoginLogoutManagement_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VPLoginLogoutManagement_Example-resources.sh"; sourceTree = "<group>"; };
+		997725EFFB0176E32FFDAF934FD57042 /* Pods-VPLoginLogoutManagement_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VPLoginLogoutManagement_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B2F1F2CA6314A675E34ACD6B4C989F9 /* Pods-VPLoginLogoutManagement_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPLoginLogoutManagement_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A2D82F8995CC8E301A448FD880AA12B8 /* Pods-VPLoginLogoutManagement_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VPLoginLogoutManagement_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ABA914181CBFF4705E5B73773CC17452 /* Pods-VPLoginLogoutManagement_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPLoginLogoutManagement_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C105D3E045D412D583B732064A45274C /* VPLoginLogoutManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VPLoginLogoutManagement.framework; path = VPLoginLogoutManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2AF9EF2C80DBCE12FD1F35F2DF961D7 /* Pods-VPLoginLogoutManagement_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VPLoginLogoutManagement_Tests.modulemap"; sourceTree = "<group>"; };
+		C4EE01328B527BF5AC90021DA0279A7A /* Pods-VPLoginLogoutManagement_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VPLoginLogoutManagement_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CCBA984F2E7001CED369D856C6F9E216 /* Pods-VPLoginLogoutManagement_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPLoginLogoutManagement_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D95DA412052CDF3D71531D2AA68EBE05 /* Pods-VPLoginLogoutManagement_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VPLoginLogoutManagement_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DC80B5019D9D488C5CF42D712649381E /* Pods-VPLoginLogoutManagement_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VPLoginLogoutManagement_Example.modulemap"; sourceTree = "<group>"; };
+		E76604FA9AF6ADBCE2B3BD0B6AD9074A /* Pods-VPLoginLogoutManagement_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VPLoginLogoutManagement_Tests-dummy.m"; sourceTree = "<group>"; };
+		EB333A33957C70BAD829400AF08536C5 /* VPLoginLogoutManagement.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPLoginLogoutManagement.xcconfig; sourceTree = "<group>"; };
+		EF108A50B04711AB6155B0D4BCC49237 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF53381043343BE95CFBAC6505E31A5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1AEA2BD6CEAAD390CE29B2B616001D9 /* Pods-VPLoginLogoutManagement_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VPLoginLogoutManagement_Tests-resources.sh"; sourceTree = "<group>"; };
+		FAB777624EF1266FBB89D1D763CB6E06 /* VPLoginLogoutManagement-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPLoginLogoutManagement-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E009110AFB57B6F523DC9EA90045207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D33D51BBA4D674DB0C7A5ADB9AD7FF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43128D6A1238E8B2CD89BE27E231251C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E525F3AE5BA79C5704CC6842917BCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D437C739D17F6EBA5F7A8CF6B31D4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573533E93CD2044302EAA2AADD7676C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C0CA6DF696ACC1969489366C86420B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BAFACFE3BAE16A82B675E43E4FC4128 /* Pods_VPLoginLogoutManagement_Example.framework */,
+				6B9D3B099BBCC0AF99250E8AD7CD7B29 /* Pods_VPLoginLogoutManagement_Tests.framework */,
+				C105D3E045D412D583B732064A45274C /* VPLoginLogoutManagement.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AC269C9251AF0283EDFFD0D2591B587D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4C0CA6DF696ACC1969489366C86420B4 /* Products */,
+				EF3EFCB77FD8EF21286BA155ADE2321F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96B66567270E4B33D7ADDD35E4A15601 /* VPLoginLogoutManagement */ = {
+			isa = PBXGroup;
+			children = (
+				BC65DCD8B856298FBCE68D6DF36EEAE3 /* Classes */,
+			);
+			name = VPLoginLogoutManagement;
+			path = VPLoginLogoutManagement;
+			sourceTree = "<group>";
+		};
+		AC269C9251AF0283EDFFD0D2591B587D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0D7B07F2E4331108D125A4118C79358 /* VPLoginLogoutManagement */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC65DCD8B856298FBCE68D6DF36EEAE3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28805A99825BF9192CFC386A03421489 /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C0D7B07F2E4331108D125A4118C79358 /* VPLoginLogoutManagement */ = {
+			isa = PBXGroup;
+			children = (
+				F31E0BA4EB37B30C450B99C638A28BF3 /* Support Files */,
+				96B66567270E4B33D7ADDD35E4A15601 /* VPLoginLogoutManagement */,
+			);
+			name = VPLoginLogoutManagement;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EF3EFCB77FD8EF21286BA155ADE2321F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5121D6045218F64A3CE1FF6B7EF68B1 /* Pods-VPLoginLogoutManagement_Example */,
+				FB56543F0C6418602A2934536C50F66B /* Pods-VPLoginLogoutManagement_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F31E0BA4EB37B30C450B99C638A28BF3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF108A50B04711AB6155B0D4BCC49237 /* Info.plist */,
+				5E9E5143965313167FF70DD80ABEDFE0 /* VPLoginLogoutManagement.modulemap */,
+				EB333A33957C70BAD829400AF08536C5 /* VPLoginLogoutManagement.xcconfig */,
+				06B63B30527F7209FC5863A9EF733A70 /* VPLoginLogoutManagement-dummy.m */,
+				FAB777624EF1266FBB89D1D763CB6E06 /* VPLoginLogoutManagement-prefix.pch */,
+				96B2FE3EF2778BBAFE7C8D185B57074F /* VPLoginLogoutManagement-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VPLoginLogoutManagement";
+			sourceTree = "<group>";
+		};
+		F5121D6045218F64A3CE1FF6B7EF68B1 /* Pods-VPLoginLogoutManagement_Example */ = {
+			isa = PBXGroup;
+			children = (
+				552D8A39197B716047247FB5212E7138 /* Info.plist */,
+				DC80B5019D9D488C5CF42D712649381E /* Pods-VPLoginLogoutManagement_Example.modulemap */,
+				997725EFFB0176E32FFDAF934FD57042 /* Pods-VPLoginLogoutManagement_Example-acknowledgements.markdown */,
+				366C01D3BDD413052CB4058E8C0A3E90 /* Pods-VPLoginLogoutManagement_Example-acknowledgements.plist */,
+				087CB843020460F84954944F688CA625 /* Pods-VPLoginLogoutManagement_Example-dummy.m */,
+				D95DA412052CDF3D71531D2AA68EBE05 /* Pods-VPLoginLogoutManagement_Example-frameworks.sh */,
+				96BE2D93AE0B2F282E6017A9F257BC93 /* Pods-VPLoginLogoutManagement_Example-resources.sh */,
+				7CAB6EF9B5FAD0321F6BF33567262542 /* Pods-VPLoginLogoutManagement_Example-umbrella.h */,
+				9B2F1F2CA6314A675E34ACD6B4C989F9 /* Pods-VPLoginLogoutManagement_Example.debug.xcconfig */,
+				ABA914181CBFF4705E5B73773CC17452 /* Pods-VPLoginLogoutManagement_Example.release.xcconfig */,
+			);
+			name = "Pods-VPLoginLogoutManagement_Example";
+			path = "Target Support Files/Pods-VPLoginLogoutManagement_Example";
+			sourceTree = "<group>";
+		};
+		FB56543F0C6418602A2934536C50F66B /* Pods-VPLoginLogoutManagement_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF53381043343BE95CFBAC6505E31A5A /* Info.plist */,
+				C2AF9EF2C80DBCE12FD1F35F2DF961D7 /* Pods-VPLoginLogoutManagement_Tests.modulemap */,
+				573CEEB023E737D8F97A6F3AF13EC23B /* Pods-VPLoginLogoutManagement_Tests-acknowledgements.markdown */,
+				51FF3894E5529F514C8438940FB2CC1D /* Pods-VPLoginLogoutManagement_Tests-acknowledgements.plist */,
+				E76604FA9AF6ADBCE2B3BD0B6AD9074A /* Pods-VPLoginLogoutManagement_Tests-dummy.m */,
+				C4EE01328B527BF5AC90021DA0279A7A /* Pods-VPLoginLogoutManagement_Tests-frameworks.sh */,
+				F1AEA2BD6CEAAD390CE29B2B616001D9 /* Pods-VPLoginLogoutManagement_Tests-resources.sh */,
+				A2D82F8995CC8E301A448FD880AA12B8 /* Pods-VPLoginLogoutManagement_Tests-umbrella.h */,
+				CCBA984F2E7001CED369D856C6F9E216 /* Pods-VPLoginLogoutManagement_Tests.debug.xcconfig */,
+				8442947CE935C5344DD2E406C6C383DF /* Pods-VPLoginLogoutManagement_Tests.release.xcconfig */,
+			);
+			name = "Pods-VPLoginLogoutManagement_Tests";
+			path = "Target Support Files/Pods-VPLoginLogoutManagement_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		166D1354E64F4FCB7AAD1997346D413A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E8709264E5297277010EBDB9B07497 /* Pods-VPLoginLogoutManagement_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4187F2F385344A1500406FB17041548 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34553B3CE62B0E1CDB94DE59801AC80C /* VPLoginLogoutManagement-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BFCE47D209FE72498670F16706EA57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E30C2E19BD09489FFA29CEB950CBA9 /* Pods-VPLoginLogoutManagement_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BD1850EC20DF6C2A716D91ED607F6645 /* Pods-VPLoginLogoutManagement_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6B40CA1402D2DE04C8E37B6CE7C381 /* Build configuration list for PBXNativeTarget "Pods-VPLoginLogoutManagement_Example" */;
+			buildPhases = (
+				EB157598D4660695687C467FC30E7411 /* Sources */,
+				43128D6A1238E8B2CD89BE27E231251C /* Frameworks */,
+				166D1354E64F4FCB7AAD1997346D413A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8712E5F4705F0605996B193213C8BBC /* PBXTargetDependency */,
+			);
+			name = "Pods-VPLoginLogoutManagement_Example";
+			productName = "Pods-VPLoginLogoutManagement_Example";
+			productReference = 6BAFACFE3BAE16A82B675E43E4FC4128 /* Pods_VPLoginLogoutManagement_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3D165FA70CC756087D1B231233918A3 /* Pods-VPLoginLogoutManagement_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E492747B3D99B274E00BCA98858FBC0C /* Build configuration list for PBXNativeTarget "Pods-VPLoginLogoutManagement_Tests" */;
+			buildPhases = (
+				13FD1FB218647D5FF886F4AAED2BC73B /* Sources */,
+				1E009110AFB57B6F523DC9EA90045207 /* Frameworks */,
+				E5BFCE47D209FE72498670F16706EA57 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VPLoginLogoutManagement_Tests";
+			productName = "Pods-VPLoginLogoutManagement_Tests";
+			productReference = 6B9D3B099BBCC0AF99250E8AD7CD7B29 /* Pods_VPLoginLogoutManagement_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E524CB48B330E922AF90988779392F63 /* VPLoginLogoutManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D65EAFF7F0A4214C12984D41D03A6C /* Build configuration list for PBXNativeTarget "VPLoginLogoutManagement" */;
+			buildPhases = (
+				9363430324C11E32ED0B8AFEB0EEA7CE /* Sources */,
+				5D437C739D17F6EBA5F7A8CF6B31D4E3 /* Frameworks */,
+				B4187F2F385344A1500406FB17041548 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPLoginLogoutManagement;
+			productName = VPLoginLogoutManagement;
+			productReference = C105D3E045D412D583B732064A45274C /* VPLoginLogoutManagement.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4C0CA6DF696ACC1969489366C86420B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD1850EC20DF6C2A716D91ED607F6645 /* Pods-VPLoginLogoutManagement_Example */,
+				E3D165FA70CC756087D1B231233918A3 /* Pods-VPLoginLogoutManagement_Tests */,
+				E524CB48B330E922AF90988779392F63 /* VPLoginLogoutManagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13FD1FB218647D5FF886F4AAED2BC73B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FF6A61F77CBADDCED575AA7AA50620 /* Pods-VPLoginLogoutManagement_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9363430324C11E32ED0B8AFEB0EEA7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BE220C73D23BCB04AD5177F989091E /* ReplaceMe.swift in Sources */,
+				B5AAF0F7EF4C222F66A4118343525920 /* VPLoginLogoutManagement-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB157598D4660695687C467FC30E7411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B729996C72C38B267EE9183723F45C /* Pods-VPLoginLogoutManagement_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8712E5F4705F0605996B193213C8BBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VPLoginLogoutManagement;
+			target = E524CB48B330E922AF90988779392F63 /* VPLoginLogoutManagement */;
+			targetProxy = 7FA2604CD9F8DC0FD9438628FB9B6553 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0579151EA3B4041038CE338E7AE48267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2F1F2CA6314A675E34ACD6B4C989F9 /* Pods-VPLoginLogoutManagement_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VPLoginLogoutManagement_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VPLoginLogoutManagement_Example/Pods-VPLoginLogoutManagement_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VPLoginLogoutManagement_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DA543E4E4983FCF25E2381A4A7F0460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB333A33957C70BAD829400AF08536C5 /* VPLoginLogoutManagement.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VPLoginLogoutManagement/VPLoginLogoutManagement-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VPLoginLogoutManagement/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VPLoginLogoutManagement/VPLoginLogoutManagement.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VPLoginLogoutManagement;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6342E37A1FB2C7A9E5C12094AFB48681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8442947CE935C5344DD2E406C6C383DF /* Pods-VPLoginLogoutManagement_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VPLoginLogoutManagement_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VPLoginLogoutManagement_Tests/Pods-VPLoginLogoutManagement_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VPLoginLogoutManagement_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F96384F948F5882A8DDDBB69667BCAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCBA984F2E7001CED369D856C6F9E216 /* Pods-VPLoginLogoutManagement_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VPLoginLogoutManagement_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VPLoginLogoutManagement_Tests/Pods-VPLoginLogoutManagement_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VPLoginLogoutManagement_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA92F3995FA65CF75FEFBB9D4E0E83F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA914181CBFF4705E5B73773CC17452 /* Pods-VPLoginLogoutManagement_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VPLoginLogoutManagement_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VPLoginLogoutManagement_Example/Pods-VPLoginLogoutManagement_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VPLoginLogoutManagement_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9A5E1411C53A0701026471321837448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB333A33957C70BAD829400AF08536C5 /* VPLoginLogoutManagement.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VPLoginLogoutManagement/VPLoginLogoutManagement-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VPLoginLogoutManagement/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VPLoginLogoutManagement/VPLoginLogoutManagement.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VPLoginLogoutManagement;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D65EAFF7F0A4214C12984D41D03A6C /* Build configuration list for PBXNativeTarget "VPLoginLogoutManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA543E4E4983FCF25E2381A4A7F0460 /* Debug */,
+				C9A5E1411C53A0701026471321837448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6B40CA1402D2DE04C8E37B6CE7C381 /* Build configuration list for PBXNativeTarget "Pods-VPLoginLogoutManagement_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0579151EA3B4041038CE338E7AE48267 /* Debug */,
+				AA92F3995FA65CF75FEFBB9D4E0E83F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E492747B3D99B274E00BCA98858FBC0C /* Build configuration list for PBXNativeTarget "Pods-VPLoginLogoutManagement_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F96384F948F5882A8DDDBB69667BCAC /* Debug */,
+				6342E37A1FB2C7A9E5C12094AFB48681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

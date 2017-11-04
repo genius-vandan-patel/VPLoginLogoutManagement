@@ -1,0 +1,16 @@
+PODS:
+  - VPLoginLogoutManagement (0.1.0)
+
+DEPENDENCIES:
+  - VPLoginLogoutManagement (from `../`)
+
+EXTERNAL SOURCES:
+  VPLoginLogoutManagement:
+    :path: ../
+
+SPEC CHECKSUMS:
+  VPLoginLogoutManagement: b2c43a2847746ef243944d0e632c478cd5330d51
+
+PODFILE CHECKSUM: b760f519313aa7d18f613a138bce0c5511bcdcbc
+
+COCOAPODS: 1.2.1

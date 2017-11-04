@@ -1,0 +1,6 @@
+framework module VPLoginLogoutManagement {
+  umbrella header "VPLoginLogoutManagement-umbrella.h"
+
+  export *
+  module * { export * }
+}
