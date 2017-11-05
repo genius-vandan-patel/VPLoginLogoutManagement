@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'VPLoginLogoutManagement'
-    s.version          = '0.1.0'
+    s.version          = '0.1.1'
     s.summary          = 'Manage user login & logout state using UserDefaults. You can point them to right view based on the state of their login/logout'
 
     # This description is used to generate tags and improve search results.
